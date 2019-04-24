@@ -1,21 +1,18 @@
-# sms
-
-> 
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+用户管理系统说明（zhuxuxu）<br>
+=
+使用json-server创建本地数据接口:<br>
+=
+https://github.com/typicode/json-server
+---
+jsonPlaceholder的数据变为本地数据：<br>
+=
+json-server http://jsonplaceholder.typicode.com/db (package.json里面配置)
+---
+post / delete / patch请求借助工具：<br>
+=
+POSTman
+---
+Technology Stack<br>
+=
+vue-cli3.0 / axios
+---

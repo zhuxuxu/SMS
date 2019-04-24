@@ -1,0 +1,15 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "test restful api",
+  "main": "index.js",
+  "scripts": {
+       "mock": "json-server db.json --port 3005",
+	   "jsonPlaceholder": "json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}
